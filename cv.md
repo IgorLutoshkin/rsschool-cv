@@ -66,5 +66,7 @@ More examples at the link [https://github.com/IgorLutoshkin/CODEWARS-JS.git]
 The whole experience is linked to Github [https://github.com/IgorLutoshkin]
 
 ---
-
+## Education
 ---
+* Vyatka State University, 5th year, Faculty of Engineering and Design Technologies
+* Certificate [https://stepik.org/cert/1569801]
