@@ -59,4 +59,12 @@ More examples at the link [https://github.com/IgorLutoshkin/CODEWARS-JS.git]
 
 ---
 
+## Work experience
+
+---
+
+The whole experience is linked to Github [https://github.com/IgorLutoshkin]
+
+---
+
 ---
