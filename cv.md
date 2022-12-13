@@ -1,10 +1,11 @@
 # Igor Lutoshkin
 
 ## Contacts for communication
- E-mail [ig.yarij@mail.ru]
- GitHub: [https://github.com/IgorLutoshkin]
- VK: [https://vk.com/id651344516]
- Stepik: [https://stepik.org/users/380788903]
+
+- E-mail: ig.yarij@mail.ru
+- GitHub: https://github.com/IgorLutoshkin
+- VK: https://vk.com/id651344516
+- Stepik: https://stepik.org/users/380788903
 
 ## About me
 
@@ -35,16 +36,16 @@ function digitize(n) {
 }
 ```
 
-More examples at the link [https://github.com/IgorLutoshkin/CODEWARS-JS.git]
+More examples at the link: https://github.com/IgorLutoshkin/CODEWARS-JS.git
 
 ## Work experience
 
-The whole experience is linked to Github [https://github.com/IgorLutoshkin]
+The whole experience is linked to Github: https://github.com/IgorLutoshkin
 
 ## Education
 
 - Vyatka State University, 5th year, Faculty of Engineering and Design Technologies
-- Certificate [https://stepik.org/cert/1569801]
+- Certificate: https://stepik.org/cert/1569801
 
 ## English
 
