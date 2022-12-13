@@ -18,8 +18,8 @@ Stepik: [https://stepik.org/users/380788903]
 
 ## About me
 
-Hi, here I will tell you a little about myself. I want to be a professional developer, constantly develop and learn new technologies. Now the task is to study the frontend, but in the future I plan to study the backend as well. 
+Hi, here I will tell you a little about myself. I want to be a professional developer, constantly develop and learn new technologies. Now the task is to study the frontend, but in the future I plan to study the backend as well.
 
-My strengths are that I am fascinated by the development process itself. That is, a kind of "masachism" in programming, when everything fails and I can't solve the problem, and I don't even know how to do it. This motivates me to look for and come up with algorithms and ways to solve the problem. And of course that feeling of euphoria when I was able to solve the problem). 
+My strengths are that I am fascinated by the development process itself. That is, a kind of "masachism" in programming, when everything fails and I can't solve the problem, and I don't even know how to do it. This motivates me to look for and come up with algorithms and ways to solve the problem. And of course that feeling of euphoria when I was able to solve the problem).
 
-I don't have much experience, except that I can add a certificate for learning Python, I'm also currently studying HTML and CSS on my own, I have basic skills working with the Git version control system.Currently, my experience is daily work as an independent study of technology and, of course, your course. Unfortunately, there is not much time left for studying now, but I try to devote every free minute to programming.
+I don't have much experience, except that I can add a Python certificate, I'm also currently studying HTML and CSS on my own, I have basic skills working with the Git version control system. Currently, my experience is daily work in self-study of technology and, of course, your course. Unfortunately, there is not much time left for studying now, but I try to devote every free minute to programming.
