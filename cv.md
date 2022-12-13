@@ -1,24 +1,16 @@
-## Igor Lutoshkin
-
----
+# Igor Lutoshkin
 
 ## Contacts for communication
 
----
+- E-mail [https://e.mail.ru/inbox/]\*
 
-E-mail [https://e.mail.ru/inbox/]
+- GitHub: [https://github.com/IgorLutoshkin]
 
-GitHub: [https://github.com/IgorLutoshkin]
+- VK: [https://vk.com/id651344516]
 
-VK: [https://vk.com/id651344516]
-
-Stepik: [https://stepik.org/users/380788903]
-
----
+- Stepik: [https://stepik.org/users/380788903]
 
 ## About me
-
----
 
 Hi, here I will tell you a little about myself. I want to be a professional developer, constantly develop and learn new technologies. Now the task is to study the frontend, but in the future I plan to study the backend as well.
 
@@ -26,11 +18,7 @@ My strengths are that I am fascinated by the development process itself. That is
 
 I don't have much experience, except that I can add a Python certificate, I'm also currently studying HTML and CSS on my own, I have basic skills working with the Git version control system. Currently, my experience is daily work in self-study of technology and, of course, your course. Unfortunately, there is not much time left for studying now, but I try to devote every free minute to programming.
 
----
-
 ## My skills
-
----
 
 - Python
 - HTML
@@ -38,11 +26,7 @@ I don't have much experience, except that I can add a Python certificate, I'm al
 - Git
 - JS (a little)
 
----
-
 ## Code examples 'Codewars'
-
----
 
 ```
 /*Given a random non-negative number, you have to return the digits of this number within an array in reverse order.*/
@@ -57,16 +41,15 @@ function digitize(n) {
 
 More examples at the link [https://github.com/IgorLutoshkin/CODEWARS-JS.git]
 
----
-
 ## Work experience
-
----
 
 The whole experience is linked to Github [https://github.com/IgorLutoshkin]
 
----
 ## Education
----
-* Vyatka State University, 5th year, Faculty of Engineering and Design Technologies
-* Certificate [https://stepik.org/cert/1569801]
+
+- Vyatka State University, 5th year, Faculty of Engineering and Design Technologies
+- Certificate [https://stepik.org/cert/1569801]
+
+## English
+
+English language level: A1
