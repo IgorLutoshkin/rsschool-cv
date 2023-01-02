@@ -353,6 +353,13 @@ ul {
 /* end service */
 
 /* start prices */
+.section-prices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 115px;
+}
 
 .title-dropdown {
   margin-top: 38px;
@@ -382,6 +389,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: inherit;
   width: 250px;
   background: #edf2ec;
   border-radius: 20px;
@@ -406,3 +414,46 @@ ul {
   background: #d9d9d9;
   border-radius: 50%;
 }
+.call-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-end;
+}
+.title-call-us {
+  margin: 38px 0;
+  width: 452px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: right;
+  color: #000000;
+}
+.gardeners {
+  color: #499a18;
+}
+.btn-contact {
+  font-family: inherit;
+  border: none;
+  background-color: #fff;
+  padding: 0;
+}
+.link-btn-contact {
+  display: block;
+  margin-bottom: 39px;
+  padding: 12px 32px;
+  font-family: Inika;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #e06733;
+  text-align: center;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+}
+.pic-call-us {
+  width: 152px;
+}
+/* end prices */
