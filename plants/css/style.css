@@ -180,6 +180,9 @@ ul {
 .list-nav__item {
   padding: 0 46px 0 0;
 }
+.text__orange {
+  color: #e06733;
+}
 .list-nav__item:last-child {
   padding-right: 0;
 }
@@ -219,7 +222,8 @@ ul {
   line-height: 35px;
 }
 .btn-lern__more {
-  padding: 14px 27px;
+  padding: 10px 25px;
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -235,11 +239,11 @@ ul {
   margin-bottom: 94px;
 }
 .about-content {
-  padding-right: 153px;
   width: 760px;
 }
 .about-title {
   margin-bottom: 40px;
+  width: 463px;
   font-family: "Inika";
   font-style: normal;
   font-weight: 400;
@@ -247,10 +251,9 @@ ul {
   line-height: 52px;
   color: #499a18;
 }
-.text__orange {
-  color: #e06733;
-}
+
 .text-about {
+  width: 605px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -273,9 +276,9 @@ ul {
   padding-bottom: 90px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: "Inika";
+  justify-content:start;
+  align-items:flex-start;
+
 }
 .service-title {
   display: block;
@@ -457,3 +460,66 @@ ul {
   width: 152px;
 }
 /* end prices */
+
+/* start contacts */
+.contacts {
+  background: #edf2ec;
+}
+.inner-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: flex-start;
+}
+.img-contacts {
+  margin-top: 53px;
+
+  width: 400px;
+}
+
+.title-contacts {
+  margin-right: 64px;
+  margin-left: 113px;
+  margin-top: 60px;
+  width: 195px;
+  font-family: Inika;
+  text-align: start;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499a18;
+}
+.btn-city {
+  margin-top: 148px;
+  padding: 0;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #d6e7d2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+.item-contacts {
+  padding: 6px 5px;
+  margin: 17px 35px 17px 0;
+  background: #aea1a1;
+  border-radius: 50%;
+}
+.btn-title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-right: 175px;
+  text-align: start;
+  width: 204px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  color: #717171;
+}
