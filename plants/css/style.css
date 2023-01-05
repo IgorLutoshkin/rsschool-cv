@@ -158,6 +158,11 @@ ul {
   padding-top: 42px;
   padding-bottom: 42px;
 }
+.logo-item:hover,
+.logo-item:active {
+  transform: scale(1.5);
+  transition: 1.5s all;
+} /* эффект наведения для логотипа */
 
 .list-nav {
   display: flex;
@@ -170,28 +175,34 @@ ul {
   margin: 0;
   padding: 0;
 }
-.list-nav__item a {
+.list-nav__item {
   font-family: "Inika";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 50px;
+  margin: 0 46px 0 0;
 }
-.list-nav__item {
-  padding: 0 46px 0 0;
+
+.list-nav__item:hover,
+.list-nav__item:focus,
+.list-nav__item:active {
+  /* opacity: 0.55; */
+  transform: scale(1.25);
+  transition: 0.5s all;
 }
 .text__orange {
   color: #e06733;
 }
 .list-nav__item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 /* end header  */
 
 /* start welcome */
 .section-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -222,8 +233,12 @@ ul {
   line-height: 35px;
 }
 .btn-lern__more {
+  border: none;
+  padding: 0;
+}
+.link-lern__more {
+  display: block;
   padding: 10px 25px;
-  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -231,6 +246,12 @@ ul {
   border: 2px solid #e06733;
   border-radius: 10px;
 }
+.link-lern__more:hover,
+.link-lern__more:active {
+  background: #e06733;
+  color: #fff;
+} /* эффект наведения */
+
 /* end welcome */
 
 /* start about */
@@ -283,6 +304,7 @@ ul {
   display: block;
   margin-right: 142px;
   max-width: 306px;
+  font-family: "Inika", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -314,6 +336,12 @@ ul {
   border-radius: 5px;
   text-align: center;
 }
+.link-btn:hover,
+.link-btn:active {
+  background: #e06733;
+  color: #fff;
+} /* эффект наведения */
+
 .btn-medium {
   padding: 12px 54px;
 }
@@ -374,7 +402,7 @@ ul {
   color: #000000;
 }
 .prices-box {
-  width: 322px;
+  width: 332px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -455,6 +483,12 @@ ul {
   border: 1px solid #e06733;
   border-radius: 5px;
 }
+.link-btn-contact:hover,
+.link-btn-contact:active {
+  background: #e06733;
+  color: #fff;
+} /* эффект наведения */
+
 .pic-call-us {
   width: 152px;
 }
@@ -501,12 +535,21 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
 }
-.item-contacts {
+.btn-city:hover,
+.btn-city:active {
+  background: #c1e698;
+} /* эффект наведения */
+
+.arrow-contacts {
   padding: 6px 5px;
   margin: 17px 35px 17px 0;
   background: #aea1a1;
   border-radius: 50%;
 }
+/* .arrow-contacts:hover,
+.arrow-contacts:active{
+transform: rotateX(180deg);
+} */
 .btn-title {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -514,7 +557,6 @@ ul {
   margin-right: 175px;
   text-align: start;
   width: 204px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -522,6 +564,7 @@ ul {
   letter-spacing: 0.05em;
   color: #717171;
 }
+
 /* start footer */
 .inner-footer {
   padding: 40px 0;
