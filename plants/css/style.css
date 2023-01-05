@@ -276,9 +276,8 @@ ul {
   padding-bottom: 90px;
   display: flex;
   flex-wrap: wrap;
-  justify-content:start;
-  align-items:flex-start;
-
+  justify-content: start;
+  align-items: flex-start;
 }
 .service-title {
   display: block;
@@ -523,3 +522,58 @@ ul {
   letter-spacing: 0.05em;
   color: #717171;
 }
+/* start footer */
+.inner-footer {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-mnemo {
+  margin-right: 20px;
+  width: 19px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: black;
+}
+.item-data {
+  margin-right: 20px;
+  width: 49px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: black;
+}
+.link-github {
+  margin-right: 13px;
+  display: block;
+  width: 61px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+.link-rss {
+  width: 211px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.social-list {
+  width: 188px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* end footer */
