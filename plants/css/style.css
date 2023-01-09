@@ -126,6 +126,9 @@ table {
   border-spacing: 0;
 }
 /* reset */
+html {
+  scroll-behavior:smooth; 
+}
 
 body {
   font-family: "Inika", serif;
@@ -232,11 +235,10 @@ ul {
   font-size: 20px;
   line-height: 35px;
 }
+
 .btn-lern__more {
   border: none;
   padding: 0;
-}
-.link-lern__more {
   display: block;
   padding: 10px 25px;
   font-style: normal;
@@ -246,8 +248,8 @@ ul {
   border: 2px solid #e06733;
   border-radius: 10px;
 }
-.link-lern__more:hover,
-.link-lern__more:active {
+.btn-lern__more:hover,
+.btn-lern__more:active {
   background: #e06733;
   color: #fff;
 } /* эффект наведения */
@@ -303,7 +305,8 @@ ul {
 .service-title {
   display: block;
   margin-right: 142px;
-  max-width: 306px;
+  width: 306px;
+  height: 94px;
   font-family: "Inika", serif;
   font-style: normal;
   font-weight: 400;
@@ -321,11 +324,13 @@ ul {
   margin-right: 38px;
   width: 161px;
 }
+
 .item-service:last-child {
   margin-right: 0;
 }
 .link-btn {
   display: block;
+  height: 50px;
   padding: 12px 40px;
   font-style: normal;
   font-weight: 400;
@@ -350,7 +355,6 @@ ul {
   padding-bottom: 121px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2);
   row-gap: 55px;
   column-gap: 117px;
 }
@@ -464,16 +468,10 @@ ul {
   color: #499a18;
 }
 .btn-contact {
-  font-family: inherit;
-  border: none;
-  background-color: #fff;
-  padding: 0;
-}
-.link-btn-contact {
-  display: block;
   margin-bottom: 39px;
   padding: 12px 32px;
-  font-family: Inika;
+  display: block;
+  background-color: #fff;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -483,8 +481,8 @@ ul {
   border: 1px solid #e06733;
   border-radius: 5px;
 }
-.link-btn-contact:hover,
-.link-btn-contact:active {
+.btn-contact:hover,
+.btn-contact:active {
   background: #e06733;
   color: #fff;
 } /* эффект наведения */
@@ -605,12 +603,18 @@ transform: rotateX(180deg);
   font-size: 20px;
   line-height: 50px;
 }
+.link-github:hover {
+  color: #717171;
+}
 .link-rss {
   width: 211px;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 50px;
+}
+.link-rss:hover {
+  color: #717171;
 }
 
 .social-list {
