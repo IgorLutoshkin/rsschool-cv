@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link
       rel="stylesheet"
       href="./assets/fonts/Inika,Inter/Inter/Inter-VariableFont_slnt,wght.ttf"
-    />
+    >
     <link
       rel="stylesheet"
       href="./assets/fonts/Inika,Inter/Inika/Inika-Regular.ttf"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    >
+    <link rel="stylesheet" href="./css/style.css" >
+<!-- favicon -->
+<link rel="icon" type="image/svg+xml" href="./assets/favicons/favicon.svg">
+<link rel="icon" type="image/png" href="./assets/favicons/favicon.png">
+<!-- favicon -->
     <title>Plants</title>
   </head>
   <body>
@@ -22,17 +26,17 @@
         <nav class="navbar">
           <ul class="list-img__logo">
             <li class="logo-item">
-              <a href="!#"><img src="./assets/svg/logo.svg" alt="logo places" /></a>
+              <a href="#"><img src="./assets/svg/logo.svg" alt="logo places" ></a>
             </li>
           </ul>
           <ul class="list-nav">
             <li class="list-nav__item">
-              <a class="text__orange" href="#">Home</a>
+              <a class="text__orange" href="./index.html">Home</a>
             </li>
-            <li class="list-nav__item"><a href="#">About us</a></li>
-            <li class="list-nav__item"><a href="#">Service</a></li>
-            <li class="list-nav__item"><a href="#">Price</a></li>
-            <li class="list-nav__item"><a href="#">Contacts</a></li>
+            <li  class="list-nav__item"><a href="#About_us">About us</a></li>
+            <li class="list-nav__item"><a href="#Service">Service</a></li>
+            <li class="list-nav__item"><a href="#Price">Price</a></li>
+            <li class="list-nav__item"><a href="#Contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -42,19 +46,21 @@
       <section class="welcome">
         <div class="wrapper section-wrapper">
           <figure class="leafs-section-pic">
-            <img src="./assets/png/leafs.png" alt="leaf" class="leafs__pic" />
+            <img src="./assets/png/leafs.png" alt="leaf" class="leafs__pic" >
           </figure>
-          <article class="welcome-content">
+          <div class="welcome-content">
             <h2 class="welcome-title">We grow plants and give you oxygen</h2>
             <p class="text-welcom">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s.
             </p>
+            
             <button class="btn-lern__more">
-              <a class="link-lern__more" href="!#">LEARN MORE</a>
+              LEARN MORE
             </button>
-          </article>
+          
+          </div>
         </div>
       </section>
       <!-- end welcome -->
@@ -62,9 +68,9 @@
 
     <main>
       <!--start about -->
-      <section class="about">
+      <section id="About_us" class="about">
         <div class="wrapper section-wrapper">
-          <article class="about-content">
+          <div class="about-content">
             <h2 class="about-title">
               We are
               <span class="text__orange">professional experienced</span>
@@ -78,23 +84,23 @@
               survived not only five centuries, but also the leap into
               electronic typesetting, remaining essentially unchanged.
             </p>
-          </article>
+          </div>
           <figure class="about-section-pic">
             <img
               src="./assets/png/about.png"
               alt="houseplant"
               class="about__pic"
-            />
+            >
           </figure>
         </div>
       </section>
       <!-- end about -->
 
       <!-- start service -->
-      <section class="service">
+      <section id="Service" class="service">
         <div class="wrapper">
           <header class="hed-service">
-            <p class="service-title">Service and our projects</p>
+            <h1 class="service-title">Service and our projects</h1>
             <nav class="service-block-btn">
               <ul class="list-btn-service">
                 <li class="item-service">
@@ -109,85 +115,86 @@
               </ul>
             </nav>
           </header>
-          <figure class="card-service">
-            <div class="card-pic">
-              <img src="./assets/png/aloe.png" alt="aloe" />
+          <div class="card-service">
+            <figure class="card-pic">
+              <img src="./assets/png/aloe.png" alt="aloe" >
               <figcaption class="desc">
                 <a class="btn-desc" href="#">Garden care</a>
                 <p class="subtitle-card-pic">
                   Lorem Ipsum has been the industry
                 </p>
               </figcaption>
-            </div>
-            <div class="card-pic">
-              <img src="./assets/png/lemon.png" alt="lemon" />
+            </figure>
+
+            <figure class="card-pic">
+              <img src="./assets/png/lemon.png" alt="lemon" >
               <figcaption class="desc">
                 <a class="btn-desc" href="#">Planting</a>
                 <p class="subtitle-card-pic">
                   Lorem Ipsum has been the industry
                 </p>
               </figcaption>
-            </div>
-            <div class="card-pic">
-              <img src="./assets/png/Lawn plants.png" alt="Lawn plants" />
+            </figure>
+
+            <figure class="card-pic">
+              <img src="./assets/png/Lawn_plants.png" alt="Lawn plants">
               <figcaption class="desc">
                 <a class="btn-desc" href="#">Lawn care</a>
                 <p class="subtitle-card-pic">
                   Lorem Ipsum has been the industry
                 </p>
               </figcaption>
-            </div>
+            </figure>
 
-            <div class="card-pic">
-              <img src="./assets/png/roses.png" alt="roses" />
+            <figure class="card-pic">
+              <img src="./assets/png/roses.png" alt="roses" >
               <figcaption class="desc">
                 <a class="btn-desc" href="#">Planting</a>
                 <p class="subtitle-card-pic">
                   Lorem Ipsum has been the industry
                 </p>
               </figcaption>
-            </div>
-            <div class="card-pic">
-              <img src="./assets/png/kolankhoy.png" alt="kolankhoy" />
+            </figure>
+
+            <figure class="card-pic">
+              <img src="./assets/png/kolankhoy.png" alt="kolankhoy" >
               <figcaption class="desc">
                 <a class="btn-desc" href="#">Garden care</a>
                 <p class="subtitle-card-pic">
                   Lorem Ipsum has been the industry
                 </p>
               </figcaption>
-            </div>
-            <div class="card-pic">
-              <img src="./assets/png/cactus.png" alt="cactus" />
+            </figure>
+
+            <figure class="card-pic">
+              <img src="./assets/png/cactus.png" alt="cactus" >
               <figcaption class="desc">
                 <a class="btn-desc" href="#">Planting</a>
                 <p class="subtitle-card-pic">
                   Lorem Ipsum has been the industry
                 </p>
               </figcaption>
-            </div>
-          </figure>
+            </figure>
+          </div>
         </div>
       </section>
       <!-- end service -->
 
       <!-- start prices -->
-      <section class="prices">
+      <section id="Price" class="prices">
         <div class="wrapper section-prices">
           <div class="dropdown">
             <h2 class="title-dropdown">Prices</h2>
             <div class="prices-box">
               <div class="inner">
                 <div class="prices-card">
-                  <a href="!#">
                     <button class="prices-btn">
                       <span class="prices-item">Basics</span>
                       <img
                         class="item-control"
                         src="./assets/svg/arrow.svg"
-                        alt="btn-Basics"
-                      />
+                        alt="btn-Basics">
                     </button>
-                  </a>
                 </div>
 
                 <div class="prices-card">
@@ -197,7 +204,7 @@
                       class="item-control"
                       src="./assets/svg/arrow.svg"
                       alt="btn-Standard"
-                    />
+                    >
                   </button>
                 </div>
 
@@ -208,7 +215,7 @@
                       class="item-control"
                       src="./assets/svg/arrow.svg"
                       alt="btn-Pro care"
-                    />
+                    >
                   </button>
                 </div>
               </div>
@@ -220,25 +227,26 @@
               help you
             </h2>
             <button class="btn-contact">
-              <a href="" class="link-btn-contact">Contact us</a>
+              Contact us
             </button>
             <figure class="leafs-call-us">
               <img
                 class="pic-call-us"
                 src="./assets/png/leafs-prices.png"
                 alt=""
-              />
+              >
             </figure>
           </div>
         </div>
       </section>
       <!-- end prices -->
+
       <!-- start contacts -->
-      <section class="contacts">
+      <section id="Contacts" class="contacts">
         <div class="wrapper">
           <div class="inner-wrapper">
             <div class="img-contacts">
-              <img src="./assets/png/contact_woman 1.png" alt="contact woman" />
+              <img src="./assets/png/contact_woman.png" alt="contact woman" >
             </div>
 
             <h2 class="title-contacts ">Contact us</h2>
@@ -248,7 +256,7 @@
                 class="arrow-contacts"
                 src="./assets/svg/arrow-contacts.svg"
                 alt="btn City"
-              />
+              >
             </button>
           </div>
         </div>
@@ -259,7 +267,7 @@
       <section class="footer">
         <div class="wrapper inner-footer">
           <ul class="nav-footer">
-            <li class="item-mnemo">&COPY</li>
+            <li class="item-mnemo">&COPY;</li>
             <li class="item-data">2022</li>
             <li class="item-github">
               <a class="link-github" href="https://github.com/IgorLutoshkin"
@@ -267,31 +275,31 @@
               >
             </li>
           </ul>
-          <span class="rss"
+          <h3 class="rss"
             ><a class="link-rss" href=" https://rs.school/js-stage0/">
               Rolling Scopes School</a
-            ></span
-          >
+            ></h3>
+          
           <ul class="social-list">
             <li class="item-insta">
               <a class="link-insta" href="!#"
                 ><img src="./assets/svg/insta.svg" alt="insta"
-              /></a>
+              ></a>
             </li>
             <li class="item-fb">
               <a class="link-fb" href="!#"
                 ><img src="./assets/svg/fb.svg" alt="facebook"
-              /></a>
+              ></a>
             </li>
             <li class="item-twit">
               <a class="link-twit" href="!#"
                 ><img src="./assets/svg/twit.svg" alt="twitter"
-              /></a>
+              ></a>
             </li>
             <li class="item-pinter">
               <a class="link-pinter" href="!#"
                 ><img src="./assets/svg/pinter.svg" alt="pinter"
-              /></a>
+              ></a>
             </li>
           </ul>
         </div>
